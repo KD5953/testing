@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <h1>Registration form</h1>
+    <form>
+        <form action="submit.php" method="post">
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name" required><br><br>
+
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name" required><br><br>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+
+            <label for="confirm_password">Confirm Password:</label>
+            <input type="password" id="confirm_password" name="confirm_password" required><br><br>
+
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday" required><br><br>
+
+            <label>Gender Identity:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+
+            <input type="radio" id="binary" name="gender" value="binary">
+            <label for="binary">Binary</label><br>
+
+            <input type="radio" id="not_specified" name="gender" value="not_specified">
+            <label for="not_specified">Do Not Want to Answer</label><br><br>
+
+            <label for="description">Short Description About Myself:</label><br>
+            <textarea id="description" name="description" rows="4" cols="50" required></textarea><br><br>
+
+            <label for="favorite_language">Favorite Language:</label>
+            <select id="favorite_language" name="favorite_language">
+                <option value="javascript">JavaScript</option>
+                <option value="python">Python</option>
+                <option value="java">Java</option>
+                <option value="csharp">C#</option>
+                <option value="php">PHP</option>
+            </select><br><br>
+
+            <label for="receive_updates">Receive Updates:</label>
+            <input type="checkbox" id="receive_updates" name="receive_updates" value="yes">
+            <label for="receive_updates">Yes, I want to receive updates</label><br><br>
+
+            <input type="submit" value="Register">
+        </form>
+</body>
+
+</html>
+
