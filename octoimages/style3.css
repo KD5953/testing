@@ -1,0 +1,41 @@
+.header{
+    text-align: center ;
+    margin-top: 1px;
+    font-family:sans-serif;
+}
+
+.image{
+    width: 300px;
+    height:300px;
+    
+}
+
+.images{
+    display:flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#image1 {
+    background-color: aquamarine;
+
+}
+
+#image2 {
+    background-color: blue;
+}
+
+#image3 {
+    background-color: brown;
+}
+
+p {
+    text-align: center;
+    font-family:sans-serif;
+}
+
+body {
+    background-color:lightgray;
+    padding: 20px;
+}
