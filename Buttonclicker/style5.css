@@ -1,0 +1,142 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+
+
+
+/* nav bar */
+nav {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    margin-left: 900px;
+    margin-right: 900px;
+    gap: 80px;
+}
+
+
+/* header 1 */
+h1 {
+    font-size: 60px;
+    color: white;
+    padding: 20px;
+}
+
+
+ul {
+    display: flex;
+    width: 500px;
+}
+
+.search-word {
+    margin-top: 13px;
+}
+
+
+
+
+/* like/decline button */
+button {
+    padding: 10px 40px;
+    margin: 15px 8px;
+    background-color: lightcyan;
+    margin-top: 100px;;
+}
+
+.paragraph {
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    margin-top: 110px;
+    gap: 40px;
+}
+
+
+.Ninja {
+    font-size: 70px;
+    display: flex;
+
+}
+
+.noun {
+    font-size: xx-large;
+}
+
+
+
+
+.search {
+    background-color: white;
+    width: 500px;
+    height: 60px;
+    margin-left: 350px;
+    margin: 10px;
+    border: 3px solid black;
+    font-size: larger;
+    display: flex;
+    justify-content: left;
+}
+
+
+.definition {
+    background-color: white;
+    height: 300px;
+    width: 800px;
+    border: 3px solid grey;
+    margin-left: 900px;
+    margin-top: 120px;
+    display: flex;
+
+
+}
+
+.test {
+    background-color: white;
+    height: 300px;
+    width: 400px;
+    border: 3px solid black;
+    display: flex;
+
+
+}
+
+.definitions {
+    /*  */
+}
+
+.ad-def {
+    background-color: white;
+    height: 300px;
+    width: 500px;
+    border: 3px solid black;
+    margin: 120px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content {
+    display: flex;
+
+}
+
+
+.r-button {
+    padding: 30px 80px;
+    margin: 120px 5px;
+    background-color: green ;
+    position:relative;
+    border: solid black;
+}
+
+.ad-def-p {
+    font-size: 40px;
+    display: flex;
+    justify-content: space-around;
+
+}
+

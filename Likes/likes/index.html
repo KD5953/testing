@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav>Network</nav>
+  <h1 class="d-flex">Your Feed</h1>
+
+  <div class="content">
+    <div class="l-col flex">
+      <div class="user">
+        <img class="m-10" src="yaktocat.png" alt=""><br>
+        <a class="m-10" href="#">Add an Avatar</a>
+        <h2 class="m-10">James Doe</h2>
+      </div>
+
+    </div>
+
+    <div class="r-col flex2">
+
+      <div class="card">
+        <div class="d-flex j-between p-10">
+          <h2> Neil M</h2>
+          <p id="likes1"> 9</p><p> like(s)</p>
+          <button onclick="addLike('#likes1')" class="like">like</button>
+        </div>
+        <p class="m-10">This is some filter text, it can say anything we like</p>
+      </div>
+
+      <div class="card">
+        <div class="d-flex j-between p-10">
+          <h2> Nichole K</h2>
+          <p id="likes2"> 12</p><p> like(s)</p>
+          <button onclick="addLike('#likes2')" class="like">like</button>
+        </div>
+        <p class="m-10">This is some filter text, it can say anything we like</p>
+      </div>
+
+      <div class="card">
+        <div class="d-flex j-between p-10">
+          <h2> Jim R </h2>
+          <p id="likes3"> 9</p><p> like(s)</p>
+          <button onclick="addLike('#likes3')" class="like">like</button>
+        </div>
+        <p class="m-10">This is some filter text, it can say anything we like</p>
+      </div>
+
+
+    </div>
+  </div>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>

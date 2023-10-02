@@ -1,0 +1,83 @@
+.d-flex {
+    display: flex;
+}
+
+nav {
+    background-color: black;
+    width: 80%;
+    color: white;
+    font-size: 70px;
+    padding: 20px;
+    margin: 0% 10%;
+    justify-content: center;
+}
+
+h1 {
+    justify-content: center;
+}
+
+.flex {
+    flex: 1;
+}
+
+.flex2 {
+    flex: 2;
+}
+
+.flex3 {
+    flex: 3;
+}
+
+.content {
+    display: flex;
+}
+
+
+.like {
+    background-color: yellow;
+    height: 50px;
+    width: 100px;
+    box-shadow: black 5px 5px;
+}
+
+.j-between {
+    justify-content: space-between;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.a-center {
+    align-items: center;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.card {
+    margin: 20px;
+    height: 200px;
+    width: 50%;
+    border: 5px black solid;
+}
+
+.m-10 {
+    margin: 10px;
+}
+
+img {
+    border-radius: 50%;
+    background-color: pink;
+    height: 50px;
+}
+
+.user {
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    margin: 20px;
+    margin-left: 50%;
+    border: 5px black solid;
+}
